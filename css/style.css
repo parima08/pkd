@@ -1,0 +1,242 @@
+html, body{
+	font-size: 100%;
+	font-family:  'Lato', sans-serif
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	font-size: 14px;
+}
+
+.viewport{
+	width: 100%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.panel{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+}
+
+.intro{
+	background: url("../img/pkd-cover.png");
+	background-position: center;
+	background-size: cover;
+}
+
+.intro h1, h3{
+	font-family: 'Lato';
+	font-weight: 200;
+	color: white;
+	/* SHRIMAD RAJCHANDRA: */
+	text-shadow: 0px 10px 10px rgba(0,0,0,0.50);
+}
+
+.intro h1{
+	font-size: 2.3em;
+	margin: 0 0 .5em 0;
+	padding: 0 0;
+	letter-spacing: .07em;
+}
+
+.intro h3{
+	letter-spacing: .07em;
+	font-size: .6em;
+	margin: 0;
+}
+
+.intro img{
+	height: 90%;
+	position: absolute;
+	bottom: 0;
+}
+
+.bold{
+	font-weight: 400;
+}
+
+.intro .title{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 90%;
+    transform: translate(-50%, 0);
+}
+
+
+.mg-quote{
+	background-color: #181922;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+.quote-container{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.quotation-mark{
+	font-family: 'Playfair Display', serif;
+	font-size: 9em;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	font-weight: 200;
+	opacity: .2;
+}
+
+.quotation-mark.top{
+	top: 0;
+	left: 0;
+}
+
+.quotation-mark.bottom{
+	right: 0;
+	bottom: -.4em;
+}
+
+.reference{
+	position: absolute;
+	right: 0;
+}
+
+.reference h5{
+	font-family: 'Lato', serif;
+	font-size: .5em;
+	font-weight: 200;
+}
+.quote{
+	position: absolute;
+	width: 70%;
+	height: 80%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.quote-text{
+	position: absolute;
+	width: 70%;
+	height: 40%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.quote h3{
+	font-weight: 300;
+	font-size: 1em;
+}
+
+
+#pin-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.lines-container{
+	/*background-color: green;*/
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.line{
+	position: absolute;
+	height: 100%;
+	width: 10px;
+	border-left: 1px dotted rgba(0, 0, 0, .2);
+	left: 10%;
+	/*background-color: pink;
+	margin-right: 12%;*/
+}
+
+.line.two{
+	left: 25%;
+}
+.line.three{
+	left: 40%;
+}
+.line.four{
+	left: 55%;
+}
+.line.five{
+	left: 70%;
+}
+.line.six{
+	left: 85%;
+}
+
+h1.chapter-number{
+	position: absolute;
+	font-family: 'Source Code Pro';
+	font-size: 7em;
+	padding: 0;
+	color: #C5C5C5;
+	font-weight: 400;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	display: inline;
+	margin: auto;
+}
+
+h1.chapter-name{
+	position: absolute;
+	padding: 0;
+	color: #C5C5C5;
+	font-weight: 400;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	display: inline;
+	margin: auto;
+
+	font-family: "Lato";
+	line-height: 4em;
+	font-size: 2.7em;
+	font-weight: 200;
+	color: #F72E47;
+}
+
+.chapter-title{
+	position: relative;
+	margin-top: 40px;
+	width: 70%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+
+.map-section{
+	background: white;
+}
+
+.map-section-content{
+	position: absolute;
+	width: 100%;
+	height: 400%
+	background-color: blue;
+}
+
+.map{
+	width: 60%;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+}
+
+.map img{
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
